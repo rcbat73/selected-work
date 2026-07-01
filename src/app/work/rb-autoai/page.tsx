@@ -92,7 +92,9 @@ export default function RbAutoAiCaseStudyPage() {
           </div>
 
           <div className="flex flex-col gap-3 pt-2 sm:flex-row">
-            <Button href="https://rb-autoai.tech">Live Website</Button>
+            <Button href="https://rb-autoai.tech" external>
+              Live Website
+            </Button>
             <Button href="/work" variant="secondary">
               Back to Selected Work
             </Button>
