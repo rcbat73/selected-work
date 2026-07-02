@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Selected Work icon</title>
+  <desc id="desc">Minimal SW monogram on a dark background.</desc>
+  <rect width="512" height="512" rx="92" fill="#090A0D"/>
+  <rect x="28" y="28" width="456" height="456" rx="76" fill="#0B0D12" stroke="#27272A" stroke-width="8"/>
+  <text x="251" y="286" text-anchor="middle"
+        font-family="Inter, Sora, Space Grotesk, Arial, sans-serif"
+        font-size="208" font-weight="800" letter-spacing="-18">
+    <tspan fill="#F4F4F5">S</tspan><tspan fill="#22D3EE">W</tspan>
+  </text>
+  <rect x="188" y="366" width="136" height="10" rx="5" fill="#22D3EE"/>
+</svg>

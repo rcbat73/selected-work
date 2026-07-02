@@ -24,6 +24,15 @@ export const metadata: Metadata = {
   description:
     "Professional frontend portfolio for Rudys Calderin, focused on AI automation interfaces, conversion-ready web products, and interactive experiences.",
   metadataBase: new URL("https://portfolio.rb-autoai.tech"),
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/site.webmanifest",
   openGraph: {
     title: "Selected Work | Rudys Calderin",
     description:
@@ -31,6 +40,24 @@ export const metadata: Metadata = {
     type: "website",
     url: "https://portfolio.rb-autoai.tech",
     siteName: "Selected Work",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Selected Work by Rudys Calderin",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Selected Work | Rudys Calderin",
+    description:
+      "Frontend Engineer focused on AI automation, conversion-ready interfaces, and interactive web experiences.",
+    images: ["/og-image.png"],
+  },
+  alternates: {
+    canonical: "/",
   },
   robots: {
     index: true,
