@@ -20,7 +20,7 @@ const tech = ["React", "TypeScript", "Tailwind", "WhatsApp", "Automation"];
 export default function ClinicDashboardCaseStudyPage() {
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-16 px-4 py-14 sm:px-6 lg:px-8">
-      <section className="rounded-3xl border border-zinc-800/80 bg-zinc-900/65 p-7 sm:p-10 lg:p-12">
+      <section className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-7 sm:p-10 lg:p-12">
         <div className="max-w-4xl space-y-6">
           <p className="text-xs uppercase tracking-[0.24em] text-cyan-300/80">
             Product Prototype
@@ -37,7 +37,7 @@ export default function ClinicDashboardCaseStudyPage() {
           </p>
 
           <div className="grid gap-5 pt-4 md:grid-cols-2">
-            <div className="rounded-2xl border border-zinc-800/80 bg-zinc-950/50 p-5">
+            <div className="rounded-lg border border-zinc-800/80 bg-zinc-950/50 p-5">
               <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-400">
                 Role
               </h2>
@@ -54,7 +54,7 @@ export default function ClinicDashboardCaseStudyPage() {
               </ul>
             </div>
 
-            <div className="rounded-2xl border border-zinc-800/80 bg-zinc-950/50 p-5">
+            <div className="rounded-lg border border-zinc-800/80 bg-zinc-950/50 p-5">
               <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-400">
                 Tech Stack
               </h2>
@@ -72,14 +72,24 @@ export default function ClinicDashboardCaseStudyPage() {
             </div>
           </div>
 
-          <Button href="/work" variant="secondary">
-            Back to Selected Work
-          </Button>
+          <div className="space-y-3 pt-2">
+            <div className="flex flex-col gap-3 sm:flex-row">
+              <Button href="/contact">Request Walkthrough</Button>
+
+              <Button href="/work" variant="secondary">
+                Back to Selected Work
+              </Button>
+            </div>
+
+            <p className="text-sm leading-6 text-zinc-400">
+              Private product prototype. A walkthrough is available on request.
+            </p>
+          </div>
         </div>
       </section>
 
       <section className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-        <div className="rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+        <div className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
           <p className="text-xs uppercase tracking-[0.22em] text-cyan-300/80">
             Overview
           </p>
@@ -89,7 +99,7 @@ export default function ClinicDashboardCaseStudyPage() {
           </h2>
         </div>
 
-        <div className="space-y-5 rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+        <div className="space-y-5 rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
           <p className="text-sm leading-7 text-zinc-300">
             This prototype was designed to help aesthetic clinics centralize
             customer conversations received through WhatsApp while keeping

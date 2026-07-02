@@ -16,7 +16,7 @@ export default function WorkPage() {
         <SectionHeading
           eyebrow="Selected Work"
           title="Shipped products, production prototypes, and interactive experiences."
-          description="A curated collection of real-world projects showcasing frontend engineering, AI automation, interactive web experiences, and product-focused development."
+          description="A curated collection of commercial demos, shipped interfaces, AI automation systems, and interactive web experiences built with a product-focused approach."
         />
 
         <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">

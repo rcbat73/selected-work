@@ -1,60 +1,75 @@
 import type { Metadata } from "next";
 
+import { Button } from "@/components/Button";
 import { SectionHeading } from "@/components/SectionHeading";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Contact details and social links for Rudys Calderin.",
+  description:
+    "Get in touch with Rudys Calderin regarding frontend engineering, AI automation, and interactive web development.",
 };
-
-const contactItems = [
-  {
-    label: "Email",
-    value: "your-email@example.com",
-    href: "mailto:your-email@example.com",
-  },
-  {
-    label: "LinkedIn",
-    value: "linkedin.com/in/your-profile",
-    href: "https://linkedin.com/in/your-profile",
-  },
-  {
-    label: "GitHub",
-    value: "github.com/your-username",
-    href: "https://github.com/your-username",
-  },
-];
 
 export default function ContactPage() {
   return (
     <main className="mx-auto w-full max-w-6xl flex-1 px-4 py-14 sm:px-6 lg:px-8">
-      <section className="max-w-3xl space-y-8 rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-10">
+      <section className="mx-auto max-w-3xl space-y-8 rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-10">
         <SectionHeading
-          eyebrow="Get In Touch"
-          title="Contact"
-          description="Placeholders below are intentionally explicit so you can replace them quickly before publishing."
+          eyebrow="Contact"
+          title="Let's build something great together."
+          description="I'm available for frontend engineering, AI automation, interactive experiences, and modern web product development."
         />
 
-        <ul className="space-y-4">
-          {contactItems.map((item) => (
-            <li
-              key={item.label}
-              className="rounded-xl border border-zinc-800 bg-zinc-950/70 p-4"
+        <div className="space-y-6">
+          <div>
+            <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
+              Email
+            </p>
+
+            <a
+              href="mailto:your-email@example.com"
+              className="mt-2 inline-flex text-base text-cyan-300 transition hover:text-cyan-200"
             >
-              <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
-                {item.label}
-              </p>
-              <a
-                href={item.href}
-                target={item.label === "Email" ? undefined : "_blank"}
-                rel={item.label === "Email" ? undefined : "noopener noreferrer"}
-                className="mt-1 inline-flex text-sm text-cyan-300 transition hover:text-cyan-200"
-              >
-                {item.value}
-              </a>
-            </li>
-          ))}
-        </ul>
+              rcbat73@gmail.com
+            </a>
+          </div>
+
+          <div>
+            <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
+              LinkedIn
+            </p>
+
+            <a
+              href="https://www.linkedin.com/in/rudyscalderin/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-flex text-base text-cyan-300 transition hover:text-cyan-200"
+            >
+              linkedin.com/in/rudyscalderin/
+            </a>
+          </div>
+
+          <div>
+            <p className="text-xs uppercase tracking-[0.2em] text-zinc-500">
+              GitHub
+            </p>
+
+            <a
+              href="https://github.com/rcbat73"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-2 inline-flex text-base text-cyan-300 transition hover:text-cyan-200"
+            >
+              github.com/rcbat73
+            </a>
+          </div>
+        </div>
+
+        <Button
+          href="mailto:your-email@example.com"
+          className="w-full sm:w-auto"
+        >
+          Start a Conversation
+        </Button>
       </section>
     </main>
   );

@@ -23,6 +23,7 @@ const tech = [
   "n8n",
   "Gemini",
   "OCR",
+  "Evolution API",
   "Google Drive",
   "Google Sheets",
   "WhatsApp",
@@ -35,13 +36,13 @@ const features = [
   "Original document storage in Google Drive",
   "Structured invoice data exported to Google Sheets",
   "Error handling for unreadable or incomplete documents",
-  "Responsive landing page with clear conversion-focused CTA",
+  "Conversion-focused landing page designed for lead generation",
 ];
 
 export default function RbAutoAiCaseStudyPage() {
   return (
     <main className="mx-auto flex w-full max-w-6xl flex-1 flex-col gap-16 px-4 py-14 sm:px-6 lg:px-8">
-      <section className="rounded-3xl border border-zinc-800/80 bg-zinc-900/65 p-7 sm:p-10 lg:p-12">
+      <section className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-7 sm:p-10 lg:p-12">
         <div className="max-w-4xl space-y-6">
           <p className="text-xs uppercase tracking-[0.24em] text-cyan-300/80">
             Case Study
@@ -52,13 +53,13 @@ export default function RbAutoAiCaseStudyPage() {
           </h1>
 
           <p className="max-w-3xl text-lg leading-8 text-zinc-300">
-            AI-powered invoice processing platform that automates document
-            extraction from WhatsApp and email using OCR, AI, Google Drive, and
-            Google Sheets.
+            AI automation platform that streamlines invoice processing across
+            WhatsApp and email using OCR, Gemini AI, and business workflow
+            automation.
           </p>
 
           <div className="grid gap-5 pt-4 md:grid-cols-2">
-            <div className="rounded-2xl border border-zinc-800/80 bg-zinc-950/50 p-5">
+            <div className="rounded-lg border border-zinc-800/80 bg-zinc-950/50 p-5">
               <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-400">
                 Role
               </h2>
@@ -74,7 +75,7 @@ export default function RbAutoAiCaseStudyPage() {
               </ul>
             </div>
 
-            <div className="rounded-2xl border border-zinc-800/80 bg-zinc-950/50 p-5">
+            <div className="rounded-lg border border-zinc-800/80 bg-zinc-950/50 p-5">
               <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-zinc-400">
                 Tech Stack
               </h2>
@@ -93,7 +94,7 @@ export default function RbAutoAiCaseStudyPage() {
 
           <div className="flex flex-col gap-3 pt-2 sm:flex-row">
             <Button href="https://rb-autoai.tech" external>
-              Live Website
+              Visit Website
             </Button>
             <Button href="/work" variant="secondary">
               Back to Selected Work
@@ -103,7 +104,7 @@ export default function RbAutoAiCaseStudyPage() {
       </section>
 
       <section className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
-        <div className="rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+        <div className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
           <p className="text-xs uppercase tracking-[0.22em] text-cyan-300/80">
             Overview
           </p>
@@ -112,7 +113,7 @@ export default function RbAutoAiCaseStudyPage() {
           </h2>
         </div>
 
-        <div className="space-y-5 rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+        <div className="space-y-5 rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
           <p className="text-sm leading-7 text-zinc-300">
             RB AutoAI was built to reduce the repetitive work involved in
             receiving, reading, storing, and organizing invoice data for small
@@ -128,7 +129,7 @@ export default function RbAutoAiCaseStudyPage() {
       </section>
 
       <section className="grid gap-6 md:grid-cols-2">
-        <article className="rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+        <article className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
           <p className="text-xs uppercase tracking-[0.22em] text-cyan-300/80">
             Challenge
           </p>
@@ -142,7 +143,7 @@ export default function RbAutoAiCaseStudyPage() {
           </p>
         </article>
 
-        <article className="rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+        <article className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
           <p className="text-xs uppercase tracking-[0.22em] text-cyan-300/80">
             Solution
           </p>
@@ -157,7 +158,7 @@ export default function RbAutoAiCaseStudyPage() {
         </article>
       </section>
 
-      <section className="rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+      <section className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
         <p className="text-xs uppercase tracking-[0.22em] text-cyan-300/80">
           Key Features
         </p>
@@ -169,7 +170,7 @@ export default function RbAutoAiCaseStudyPage() {
           {features.map((feature) => (
             <div
               key={feature}
-              className="rounded-xl border border-zinc-800/80 bg-zinc-950/50 p-4 text-sm leading-7 text-zinc-300"
+              className="rounded-lg border border-zinc-800/80 bg-zinc-950/50 p-4 text-sm leading-7 text-zinc-300"
             >
               {feature}
             </div>
@@ -177,7 +178,7 @@ export default function RbAutoAiCaseStudyPage() {
         </div>
       </section>
 
-      <section className="rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+      <section className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
         <p className="text-xs uppercase tracking-[0.22em] text-cyan-300/80">
           Architecture
         </p>
@@ -195,7 +196,7 @@ export default function RbAutoAiCaseStudyPage() {
           ].map((step) => (
             <div
               key={step}
-              className="rounded-xl border border-zinc-800/80 bg-zinc-950/50 p-4 text-center"
+              className="rounded-lg border border-zinc-800/80 bg-zinc-950/50 p-4 text-center"
             >
               {step}
             </div>
@@ -203,7 +204,7 @@ export default function RbAutoAiCaseStudyPage() {
         </div>
       </section>
 
-      <section className="rounded-2xl border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
+      <section className="rounded-lg border border-zinc-800/80 bg-zinc-900/65 p-6 sm:p-8">
         <p className="text-xs uppercase tracking-[0.22em] text-cyan-300/80">
           Lessons Learned
         </p>
@@ -211,10 +212,12 @@ export default function RbAutoAiCaseStudyPage() {
           What this project improved
         </h2>
         <p className="mt-4 max-w-3xl text-sm leading-7 text-zinc-300">
-          This project strengthened my experience in designing production-ready
-          landing pages, connecting AI workflows to business processes, handling
-          document extraction edge cases, and building automation systems around
-          tools that users already understand.
+          This project strengthened my ability to design complete AI automation
+          products—from conversion-focused landing pages to production-ready
+          workflows integrating OCR, LLMs, cloud storage, and business
+          automation. It also reinforced the importance of building systems
+          around tools users already know, reducing adoption friction while
+          improving operational efficiency.
         </p>
       </section>
     </main>

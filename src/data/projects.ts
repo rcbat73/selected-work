@@ -10,36 +10,38 @@ export const projects: Project[] = [
     tags: [
       "Next.js",
       "TypeScript",
-      "Tailwind",
+      "Tailwind CSS",
       "n8n",
-      "Gemini",
+      "Gemini AI",
       "OCR",
+      "Evolution API",
       "Google Workspace",
     ],
     note: "Live Product",
   },
   {
     title: "Interactive 3D Property Experience",
-    slug: "interactive-property",
+    slug: "interactive-home-walkthrough",
     type: "Real-Time 3D Web Experience",
     description:
-      "Interactive property visualization built with React Three Fiber to explore architectural spaces before construction through a real-time 3D environment.",
+      "Commercial 3D property walkthrough demo built to help architecture studios present spaces before construction through an interactive real-time experience.",
     tags: [
       "React Three Fiber",
+      "Rapier Physics",
       "Three.js",
       "TypeScript",
       "WebGL",
       "Interactive UX",
     ],
-    note: "Personal R&D Project",
+    note: "Client Demo"
   },
   {
     title: "AI Reception Dashboard",
-    slug: "clinic-dashboard",
+    slug: "ai-reception-dashboard",
     type: "Healthcare CRM & Reception Dashboard",
     description:
       "Dashboard prototype designed for aesthetic clinics to centralize WhatsApp conversations, customer records, and appointment workflows in a single interface.",
     tags: ["React", "TypeScript", "Tailwind", "Dashboard", "WhatsApp", "UX"],
-    note: "Product Prototype",
+    note: "Private Product Prototype"
   },
 ];

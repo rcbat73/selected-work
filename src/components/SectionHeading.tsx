@@ -16,11 +16,13 @@ export function SectionHeading({
           {eyebrow}
         </p>
       ) : null}
-      <h2 className="text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
+
+      <h2 className="max-w-4xl text-2xl font-semibold tracking-tight text-zinc-50 sm:text-3xl">
         {title}
       </h2>
+
       {description ? (
-        <p className="max-w-2xl text-sm leading-7 text-zinc-300">
+        <p className="max-w-3xl text-sm leading-7 text-zinc-300">
           {description}
         </p>
       ) : null}
