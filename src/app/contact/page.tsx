@@ -64,10 +64,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <Button
-          href="mailto:your-email@example.com"
-          className="w-full sm:w-auto"
-        >
+        <Button href="mailto:rcbat73@gmail.com" className="w-full sm:w-auto">
           Start a Conversation
         </Button>
       </section>
