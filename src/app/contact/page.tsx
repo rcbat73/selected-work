@@ -26,7 +26,7 @@ export default function ContactPage() {
             </p>
 
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:rcbat73@gmail.com"
               className="mt-2 inline-flex text-base text-cyan-300 transition hover:text-cyan-200"
             >
               rcbat73@gmail.com
