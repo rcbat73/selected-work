@@ -5,7 +5,22 @@ import { Button } from "@/components/Button";
 export const metadata: Metadata = {
   title: "Interactive Home Walkthrough | Case Study",
   description:
-    "Case study of an interactive 3D web application built with Three.js for architectural visualization.",
+    "Interactive 3D product prototype developed for an architecture studio, allowing clients to explore residential projects before construction through an immersive web experience.",
+
+  openGraph: {
+    title: "Interactive Home Walkthrough | Case Study",
+    description:
+      "Interactive 3D product prototype developed for an architecture studio, allowing clients to explore residential projects before construction through an immersive web experience.",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Interactive Home Walkthrough",
+      },
+    ],
+  },
 };
 
 const technologies = [
