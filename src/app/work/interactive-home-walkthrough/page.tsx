@@ -99,7 +99,7 @@ export default function InteractiveHomeWalkthroughCaseStudyPage() {
 
           <div className="flex flex-col gap-3 pt-2 sm:flex-row">
             <Button
-              href="https://rcbat73.github.io/interactive-home-walkthrough/"
+              href="https://interactive-home-walkthrough.rb-autoai.tech"
               external
             >
               Live Demo
